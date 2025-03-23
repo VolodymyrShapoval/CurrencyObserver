@@ -1,0 +1,198 @@
+[
+    {
+        "name": "ASP.NET Core E-commerce Platform",
+        "startDate": "2024-02-01",
+        "durationMonths": 5,
+        "country": "USA",
+        "description": "Development of a scalable e-commerce platform using ASP.NET Core."
+    },
+    {
+        "name": ".NET 6 Migration",
+        "startDate": "2024-03-12",
+        "durationMonths": 4,
+        "country": "UK",
+        "description": "Upgrading a legacy system to .NET 6 for better performance and security."
+    },
+    {
+        "name": ".NET MAUI Mobile App",
+        "startDate": "2024-04-25",
+        "durationMonths": 5,
+        "country": "Canada",
+        "description": "Building a cross-platform mobile app using .NET MAUI."
+    },
+    {
+        "name": "Blazor WebAssembly Client Portal",
+        "startDate": "2024-05-10",
+        "durationMonths": 5,
+        "country": "Germany",
+        "description": "Developing a client portal with Blazor WebAssembly for seamless user experience."
+    },
+    {
+        "name": "Azure Functions with .NET 6",
+        "startDate": "2024-06-15",
+        "durationMonths": 4,
+        "country": "Australia",
+        "description": "Serverless backend development using Azure Functions and .NET 6."
+    },
+    {
+        "name": "Microservices Architecture with .NET",
+        "startDate": "2024-07-01",
+        "durationMonths": 4,
+        "country": "Ukraine",
+        "description": "Building a microservices-based system using .NET and Docker."
+    },
+    {
+        "name": "Healthcare Management System",
+        "startDate": "2024-08-20",
+        "durationMonths": 5,
+        "country": "France",
+        "description": "Full-stack healthcare management platform using .NET Core and React."
+    },
+    {
+        "name": ".NET API for FinTech Application",
+        "startDate": "2024-09-18",
+        "durationMonths": 5,
+        "country": "Sweden",
+        "description": "Creating a secure .NET Core API for a FinTech application."
+    },
+    {
+        "name": "Real-time Chat App with SignalR",
+        "startDate": "2024-10-05",
+        "durationMonths": 5,
+        "country": "Italy",
+        "description": "Developing a real-time chat application using .NET Core and SignalR."
+    },
+    {
+        "name": "IoT Platform with .NET",
+        "startDate": "2024-11-01",
+        "durationMonths": 5,
+        "country": "Japan",
+        "description": "Building an IoT platform using .NET for managing smart devices."
+    },
+    {
+        "name": "Real-time Analytics Dashboard",
+        "startDate": "2024-01-10",
+        "durationMonths": 5,
+        "country": "USA",
+        "description": "Creating a real-time analytics dashboard using ASP.NET Core and SignalR."
+    },
+    {
+        "name": "Inventory Management System",
+        "startDate": "2024-02-15",
+        "durationMonths": 6,
+        "country": "UK",
+        "description": "Developing an inventory management system using .NET and SQL Server."
+    },
+    {
+        "name": "E-Learning Platform with Blazor",
+        "startDate": "2024-03-20",
+        "durationMonths": 7,
+        "country": "Canada",
+        "description": "Building a feature-rich e-learning platform using Blazor."
+    },
+    {
+        "name": "Payment Gateway Integration",
+        "startDate": "2024-04-18",
+        "durationMonths": 4,
+        "country": "Germany",
+        "description": "Integrating a payment gateway into an existing .NET application."
+    },
+    {
+        "name": "Task Management Tool",
+        "startDate": "2024-05-22",
+        "durationMonths": 3,
+        "country": "Australia",
+        "description": "Creating a task management tool using ASP.NET Core and React."
+    },
+    {
+        "name": "Event Management System",
+        "startDate": "2024-06-10",
+        "durationMonths": 5,
+        "country": "Ukraine",
+        "description": "Developing a web application for managing events using .NET Core."
+    },
+    {
+        "name": "Social Media Integration API",
+        "startDate": "2024-07-01",
+        "durationMonths": 4,
+        "country": "France",
+        "description": "Building an API for social media integration in a .NET application."
+    },
+    {
+        "name": "Customer Feedback System",
+        "startDate": "2024-08-05",
+        "durationMonths": 3,
+        "country": "Sweden",
+        "description": "Creating a feedback collection system using .NET Core."
+    },
+    {
+        "name": "Mobile App Backend with .NET",
+        "startDate": "2024-09-12",
+        "durationMonths": 5,
+        "country": "Italy",
+        "description": "Developing the backend for a mobile app using ASP.NET Core."
+    },
+    {
+        "name": "Virtual Reality Application",
+        "startDate": "2024-10-25",
+        "durationMonths": 8,
+        "country": "Japan",
+        "description": "Building a virtual reality application using .NET technologies."
+    },
+    {
+        "name": "Machine Learning Model Deployment",
+        "startDate": "2024-11-15",
+        "durationMonths": 6,
+        "country": "USA",
+        "description": "Deploying a machine learning model using .NET Core and Azure ML."
+    },
+    {
+        "name": "Blockchain-based Voting System",
+        "startDate": "2024-12-01",
+        "durationMonths": 5,
+        "country": "Canada",
+        "description": "Creating a secure voting system using blockchain technology."
+    },
+    {
+        "name": "Augmented Reality Shopping App",
+        "startDate": "2025-01-10",
+        "durationMonths": 7,
+        "country": "UK",
+        "description": "Building an AR shopping application for enhanced user experience."
+    },
+    {
+        "name": "Smart Home Automation System",
+        "startDate": "2025-02-15",
+        "durationMonths": 6,
+        "country": "Germany",
+        "description": "Developing a smart home automation system with IoT integration."
+    },
+    {
+        "name": "Automated Testing Framework",
+        "startDate": "2025-03-05",
+        "durationMonths": 4,
+        "country": "Australia",
+        "description": "Creating a testing framework for automated UI and API tests."
+    },
+    {
+        "name": "Data Visualization Tool",
+        "startDate": "2025-04-20",
+        "durationMonths": 5,
+        "country": "France",
+        "description": "Developing a data visualization tool using .NET Core and D3.js."
+    },
+    {
+        "name": "Cybersecurity Awareness Platform",
+        "startDate": "2025-05-15",
+        "durationMonths": 4,
+        "country": "Italy",
+        "description": "Creating a platform for raising cybersecurity awareness."
+    },
+    {
+        "name": "Personal Finance Management App",
+        "startDate": "2025-06-10",
+        "durationMonths": 5,
+        "country": "Japan",
+        "description": "Building a personal finance management application with budgeting tools."
+    }
+]
