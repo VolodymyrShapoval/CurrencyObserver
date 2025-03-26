@@ -1,8 +1,10 @@
-﻿namespace CurrencyObserver.WebAPI.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace CurrencyObserver.WebAPI.Models
 {
     public class Currency
     {
-        public required string Name { get; set; }
-        public required decimal USDPrice { get; set; }
+        public required string Abbreviation { get; set; }
+        public decimal USDPrice { get; set; }
     }
 }
