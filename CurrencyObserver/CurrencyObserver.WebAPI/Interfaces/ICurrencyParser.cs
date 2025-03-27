@@ -4,6 +4,6 @@ namespace CurrencyObserver.WebAPI.Interfaces
 {
     public interface ICurrencyParser
     {
-        Task<Currency?> ParseCurrencyAsync(string? jsonResponse);
+        Currency? ParseCurrency(string? jsonResponse);
     }
 }
