@@ -1,7 +1,6 @@
-﻿using CurrencyObserver.WebAPI.Models;
+﻿using CurrencyObserver.WebAPI.Interfaces;
+using CurrencyObserver.WebAPI.Models;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CurrencyObserver.WebAPI.Controllers
 {
@@ -9,6 +8,12 @@ namespace CurrencyObserver.WebAPI.Controllers
     [ApiController]
     public class CurrencyController : ControllerBase
     {
+        private readonly ICurrencyService _currencyService;
+        public CurrencyController(ICurrencyService currencyService)
+        {
+            _currencyService = currencyService;
+        }
+
         // GET: api/<CurrencyController>
         [HttpGet]
         public async Task<IActionResult> Get(string abbreviation)
@@ -18,11 +23,13 @@ namespace CurrencyObserver.WebAPI.Controllers
                 return BadRequest("Currency abbreviation is required.");
             }
 
-            return Ok(new Currency
+            var currency = await _currencyService.GetCurrencyAsync(abbreviation);
+
+            if(currency == null)
             {
-                Abbreviation = abbreviation,
-                USDPrice = 1.0m
-            });
+                return NotFound();
+            }
+            return Ok(currency);
         }
     }
 }
