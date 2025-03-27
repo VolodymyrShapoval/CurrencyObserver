@@ -1,4 +1,5 @@
 import axios from 'axios';
+import {Currency} from '../models/Currency.js';
 const CurrencyService = {
     instance: axios.create({
         baseURL: 'https://localhost:7028/currency/',
@@ -15,6 +16,18 @@ const CurrencyService = {
             return null;
         }
     },
+    async getCurrencies()
+    {
+        try {
+            const response = await this.instance.get();
+            const currenciesRaw = response.data;
+            const currencies = Object.entries(currenciesRaw).map(([abbreviation, rate]) => new Currency(abbreviation, rate));
+            return currencies;
+        } catch (error) {
+            console.error('Error fetching currencies data:', error);
+            return null;
+        }
+    },
     convertCurrency(fromCurrency, toCurrency, amount) {
         if (!fromCurrency || !toCurrency || fromCurrency.rate === 0) {
             console.error('Invalid currency data');
@@ -24,3 +37,4 @@ const CurrencyService = {
         return convertedAmount;
     }
 };
+export default CurrencyService;

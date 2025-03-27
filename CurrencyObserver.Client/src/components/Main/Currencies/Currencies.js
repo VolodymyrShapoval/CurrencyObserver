@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from "react";
+import CurrencyService from "../../../services/CurrencyService";
 
 const Currencies = () => {
-  const [articles, setArticles] = useState([]);
+  const [currencies, setCurrencies] = useState([]);
 
   useEffect(() => {
-    const fetchArticles = async () => {
+    const fetchCurrencies = async () => {
       try {
-        const response = await fetch("./data/myArticles.json");
+        const response = await CurrencyService.getCurrencies();
         if (!response.ok) {
-          throw new Error("Failed to fetch articles");
+          throw new Error("Failed to fetch currencies");
         }
         const data = await response.json();
-        setArticles(data); // Зберігаємо статті в стані
+        setCurrencies(data); 
       } catch (error) {
-        console.error("Error fetching articles:", error);
+        console.error("Error fetching currencies:", error);
       }
     };
 
-    fetchArticles();
+    fetchCurrencies();
   }, []);
 
   return (
