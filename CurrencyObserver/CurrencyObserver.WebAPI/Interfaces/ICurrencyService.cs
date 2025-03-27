@@ -5,5 +5,6 @@ namespace CurrencyObserver.WebAPI.Interfaces
     public interface ICurrencyService
     {
         Task<Currency?> GetCurrencyAsync(string abbreviation);
+        Task<IEnumerable<Currency>> GetCurrenciesAsync();
     }
 }
