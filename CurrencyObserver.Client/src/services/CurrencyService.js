@@ -14,5 +14,13 @@ const CurrencyService = {
             console.error('Error fetching currency data:', error);
             return null;
         }
+    },
+    async convertCurrency(fromCurrency, toCurrency, amount) {
+        if (!fromCurrency || !toCurrency || fromCurrency.rate === 0) {
+            console.error('Invalid currency data');
+            return null;
+        }
+        const convertedAmount = (amount / fromCurrency.rate) * toCurrency.rate;
+        return convertedAmount;
     }
 };
