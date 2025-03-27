@@ -19,5 +19,12 @@ namespace CurrencyObserver.WebAPI.Services
             var json = await response.Content.ReadAsStringAsync();
             return _parser.ParseCurrency(json);
         }
+        public async Task<IEnumerable<Currency>> GetCurrenciesAsync()
+        {
+            string url = $"https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json";
+            var response = await _httpClient.GetAsync(url);
+            var json = await response.Content.ReadAsStringAsync();
+            return _parser.ParseCurrencies(json);
+        }
     }
 }

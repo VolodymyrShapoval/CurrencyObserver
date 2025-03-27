@@ -14,8 +14,7 @@ namespace CurrencyObserver.WebAPI.Controllers
             _currencyService = currencyService;
         }
 
-        // GET: api/<CurrencyController>
-        [HttpGet]
+        [HttpGet("{abbreviation}")]
         public async Task<IActionResult> Get(string abbreviation)
         {
             if (string.IsNullOrWhiteSpace(abbreviation))
@@ -30,6 +29,18 @@ namespace CurrencyObserver.WebAPI.Controllers
                 return NotFound();
             }
             return Ok(currency);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var currencies = await _currencyService.GetCurrenciesAsync();
+
+            if (currencies.Count() == 0)
+            {
+                return NotFound();
+            }
+            return Ok(currencies);
         }
     }
 }
