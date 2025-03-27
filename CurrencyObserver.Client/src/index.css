@@ -138,7 +138,7 @@ body {
   font-weight: 600;
 }
 
-.main-page, .about-me-page, .my-projects-page, .my-blog-page, .contact-me-page {
+.main-page, .about-me-page, .my-projects-page, .my-currencies-page, .contact-me-page {
   width: 100%;
   height: 100vh;
   color: #cfcfcf;
@@ -391,24 +391,24 @@ body {
   color: orange;
 }
 
-.my-blog-page {
+.my-currencies-page {
   display: flex;
   flex-direction: column;
   padding: 0 10%;
   justify-content: center;
   align-content: center;
 }
-.my-blog-page .slider .card-wrapper {
+.my-currencies-page .slider .card-wrapper {
   width: 80vw;
   justify-content: center;
   align-items: center;
 }
-.my-blog-page .slider .card-wrapper .articles {
+.my-currencies-page .slider .card-wrapper .articles {
   display: flex;
   flex-direction: row;
   min-height: 60vh;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block {
+.my-currencies-page .slider .card-wrapper .articles .article-block {
   display: flex;
   border: 2px solid #fff;
   border-radius: 15px;
@@ -417,27 +417,27 @@ body {
   height: 60vh;
   margin: 1em;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block img {
+.my-currencies-page .slider .card-wrapper .articles .article-block img {
   width: 100%;
   height: 50%;
   border-radius: 15px 15px 0 0;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block article {
+.my-currencies-page .slider .card-wrapper .articles .article-block article {
   flex: 1;
   position: relative;
   overflow: hidden;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block article .hiddenBtn {
+.my-currencies-page .slider .card-wrapper .articles .article-block article .hiddenBtn {
   color: #800080;
   font-weight: 600;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block article h2 {
+.my-currencies-page .slider .card-wrapper .articles .article-block article h2 {
   font-size: 26px;
   text-align: center;
   font-weight: bold;
   margin: 5% 5% 0 5%;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block article p {
+.my-currencies-page .slider .card-wrapper .articles .article-block article p {
   position: relative;
   max-width: 100%;
   max-height: 40%;
@@ -445,7 +445,7 @@ body {
   text-align: justify;
   font-size: 18px;
 }
-.my-blog-page .slider .card-wrapper .articles .article-block article .date {
+.my-currencies-page .slider .card-wrapper .articles .article-block article .date {
   display: block;
   width: 100%;
   text-align: center;

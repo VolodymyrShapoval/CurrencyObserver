@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import BlogTitle from "./BlogTitle";
-import BlogSlider from "./BlogSlider";
 
-const Blog = () => {
+const Currencies = () => {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
@@ -23,11 +21,9 @@ const Blog = () => {
   }, []);
 
   return (
-    <section className="my-blog-page" id="my-blog-page">
-      <BlogTitle />
-      <BlogSlider articles={articles} />
+    <section className="my-currencies-page" id="my-currencies-page">
     </section>
   );
 };
 
-export default Blog;
+export default Currencies;

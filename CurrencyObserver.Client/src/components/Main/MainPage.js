@@ -1,12 +1,12 @@
 import React from 'react';
 import Introduction from './Introduction/Introduction';
-import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
+import Currencies from './Currencies/Currencies';
 
 const MainPage = () => (
   <main className="main-page" id="main-page">
     <Introduction />
-    <Blog />
+    <Currencies />
     <Contact />
   </main>
 );
