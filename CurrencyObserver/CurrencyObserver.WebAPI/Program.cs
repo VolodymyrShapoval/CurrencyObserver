@@ -1,8 +1,14 @@
+using CurrencyObserver.WebAPI.Interfaces;
+using CurrencyObserver.WebAPI.Services;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<ICurrencyParser, NBUCurrencyParser>();
+builder.Services.AddScoped<ICurrencyService, CurrencyService>();
+builder.Services.AddLogging();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
