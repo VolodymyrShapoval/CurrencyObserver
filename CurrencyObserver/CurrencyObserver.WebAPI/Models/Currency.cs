@@ -5,6 +5,6 @@ namespace CurrencyObserver.WebAPI.Models
     public class Currency
     {
         public required string Abbreviation { get; set; }
-        public decimal USDPrice { get; set; }
+        public decimal Rate { get; set; }
     }
 }
