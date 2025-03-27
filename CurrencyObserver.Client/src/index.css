@@ -548,7 +548,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-top: 10px;
+  height: 70%;
 }
 .contact-me-page .contact-section .recommendations .recommended-user {
   display: flex;
