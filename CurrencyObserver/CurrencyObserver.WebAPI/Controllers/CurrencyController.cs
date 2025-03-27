@@ -11,13 +11,18 @@ namespace CurrencyObserver.WebAPI.Controllers
     {
         // GET: api/<CurrencyController>
         [HttpGet]
-        public Currency Get(string Abbreviation)
+        public async Task<IActionResult> Get(string abbreviation)
         {
-            return new Currency
+            if (string.IsNullOrWhiteSpace(abbreviation))
             {
-                Abbreviation = Abbreviation,
+                return BadRequest("Currency abbreviation is required.");
+            }
+
+            return Ok(new Currency
+            {
+                Abbreviation = abbreviation,
                 USDPrice = 1.0m
-            };
+            });
         }
     }
 }
