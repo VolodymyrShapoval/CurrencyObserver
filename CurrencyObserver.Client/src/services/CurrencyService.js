@@ -2,7 +2,7 @@ import axios from 'axios';
 import {Currency} from '../models/Currency.js';
 const CurrencyService = {
     instance: axios.create({
-        baseURL: 'https://localhost:7028/currency/',
+        baseURL: 'https://localhost:7028/api/currency/',
         timeout: 1000,
     }),
 
