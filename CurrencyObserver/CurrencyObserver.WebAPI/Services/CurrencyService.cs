@@ -14,8 +14,10 @@ namespace CurrencyObserver.WebAPI.Services
         }
         public async Task<Currency?> GetCurrencyAsync(string abbreviation)
         {
-            var response = await _httpClient.GetAsync($"https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode={abbreviation}&json");
-            return await _parser.ParseCurrencyAsync(response.Content.ToString());
+            string url = $"https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode={abbreviation}&json";
+            var response = await _httpClient.GetAsync(url);
+            var json = await response.Content.ReadAsStringAsync();
+            return _parser.ParseCurrency(json);
         }
     }
 }
