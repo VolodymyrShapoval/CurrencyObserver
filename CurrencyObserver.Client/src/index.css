@@ -583,6 +583,8 @@ body {
   flex-direction: column;
   gap: 1em;
   margin-top: 1em;
+  height: 60%;
+  overflow-y: scroll;
 }
 
 .currency-item{

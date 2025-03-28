@@ -11,7 +11,7 @@ const CurrencyComponent = ({currency, baseCurrency}) => {
     <div className="currency-item">
         <p>{currency.abbreviation}</p>
         <p>{Math.round(currencyConverted * 1000) / 1000}</p>
-        <p>{Math.round((1 / currencyConverted) * 1000) / 1000}</p>
+        <p>{Math.round((1 / currencyConverted) * 1000) / 1000} {baseCurrency.abbreviation}</p>
     </div>
   );
 };
