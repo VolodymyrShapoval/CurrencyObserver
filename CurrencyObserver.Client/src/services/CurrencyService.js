@@ -16,16 +16,23 @@ const CurrencyService = {
             return null;
         }
     },
-    async getCurrencies()
-    {
+    async getCurrencies() {
         try {
             const response = await this.instance.get();
             const currenciesRaw = response.data;
-            const currencies = Object.entries(currenciesRaw).map(([abbreviation, rate]) => new Currency(abbreviation, rate));
+    
+            if (!Array.isArray(currenciesRaw)) {
+                throw new Error('Invalid currency data format');
+            }
+    
+            const currencies = currenciesRaw.map(currency => 
+                new Currency(currency.abbreviation, currency.rate)
+            );
+    
             return currencies;
         } catch (error) {
             console.error('Error fetching currencies data:', error);
-            return null;
+            return [];
         }
     },
     convertCurrency(fromCurrency, toCurrency, amount) {
