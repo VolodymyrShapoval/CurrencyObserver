@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Restore Dependencies
-        run: dotnet restore CurrencyObserver/CurrencyObserverWebAPI
+        run: dotnet restore CurrencyObserver/CurrencyObserver.WebAPI
 
       - name: Build
-        run: dotnet build CurrencyObserver/CurrencyObserverWebAPI --no-restore --configuration Release
+        run: dotnet build CurrencyObserver/CurrencyObserver.WebAPI --no-restore --configuration Release
 
       - name: Run Tests
-        run: dotnet test CurrencyObserver/CurrencyObserverWebAPI --no-build --verbosity normal
+        run: dotnet test CurrencyObserver/CurrencyObserver.WebAPI --no-build --verbosity normal
