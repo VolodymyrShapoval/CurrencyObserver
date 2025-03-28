@@ -1,6 +1,6 @@
 {
-  "homepage": "https://volodymyrshapoval.github.io/currencyobserver",
-  "name": "portfolio-app",
+  "homepage": "https://volodymyrshapoval.github.io/CurrencyObserver",
+  "name": "currencyobserver-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
