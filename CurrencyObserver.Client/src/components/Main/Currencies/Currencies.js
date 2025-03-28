@@ -9,13 +9,9 @@ const Currencies = () => {
   useEffect(() => {
     const fetchCurrencies = async () => {
       try {
-        const response = await CurrencyService.getCurrencies();
-        if (!response.ok) {
-          throw new Error("Failed to fetch currencies");
-        }
-        const data = await response.json();
-        setCurrencies(data); 
-        setBaseCurrency(data[1]);
+        const currenciesArrData = await CurrencyService.getCurrencies();
+        setCurrencies(currenciesArrData); 
+        setBaseCurrency(currenciesArrData[0]);
       } catch (error) {
         console.error("Error fetching currencies:", error);
         //test data
