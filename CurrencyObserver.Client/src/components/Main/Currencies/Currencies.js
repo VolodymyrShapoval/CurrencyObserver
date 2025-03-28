@@ -10,8 +10,9 @@ const Currencies = () => {
     const fetchCurrencies = async () => {
       try {
         const currenciesArrData = await CurrencyService.getCurrencies();
-        setCurrencies(currenciesArrData); 
-        setBaseCurrency(currenciesArrData[0]);
+        currenciesArrData.push({ abbreviation: "UAH", rate: 1 });
+        setCurrencies(currenciesArrData);
+        setBaseCurrency(currenciesArrData[currenciesArrData.length - 1]);
       } catch (error) {
         console.error("Error fetching currencies:", error);
         //test data
