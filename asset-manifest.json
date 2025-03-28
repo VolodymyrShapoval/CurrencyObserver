@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/currencyobserver/static/css/main.79d4267b.css",
+    "main.js": "/currencyobserver/static/js/main.55ab7b9e.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/currencyobserver/static/js/453.f4fbaa6d.chunk.js",
+    "index.html": "/currencyobserver/index.html",
+    "main.79d4267b.css.map": "/currencyobserver/static/css/main.79d4267b.css.map",
+    "main.55ab7b9e.js.map": "/currencyobserver/static/js/main.55ab7b9e.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/currencyobserver/static/js/453.f4fbaa6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d4267b.css",
+    "static/js/main.55ab7b9e.js"
+  ]
+}
