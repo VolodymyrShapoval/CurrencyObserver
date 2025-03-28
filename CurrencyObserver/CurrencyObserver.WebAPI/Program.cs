@@ -15,6 +15,15 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "CurrencyObserver API", Description = "Presenting all currencies you want!", Version = "v1" });
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("VVPolicy", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
@@ -31,6 +40,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("VVPolicy");
 
 app.UseAuthorization();
 
