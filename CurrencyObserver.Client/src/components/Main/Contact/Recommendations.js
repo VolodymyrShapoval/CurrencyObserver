@@ -5,7 +5,7 @@ const Recommendations = () => {
   const users = [
     {
       name: 'Volodymyr Shapoval',
-      imgSrc: '/assets/images/tom-cruise-young.jpeg.webp',
+      imgSrc: `${process.env.PUBLIC_URL}/assets/images/tom-cruise-young.jpeg.webp`,
     },
     {
       name: 'Viktor Komissarov',
