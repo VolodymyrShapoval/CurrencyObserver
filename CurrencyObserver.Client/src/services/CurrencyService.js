@@ -3,7 +3,7 @@ import {Currency} from '../models/Currency.js';
 const CurrencyService = {
     instance: axios.create({
         baseURL: 'https://currensyobserverwebapi.azurewebsites.net/api/currency/',
-        timeout: 1000,
+        timeout: 3000,
     }),
 
     async getCurrency(abbreviation) {
