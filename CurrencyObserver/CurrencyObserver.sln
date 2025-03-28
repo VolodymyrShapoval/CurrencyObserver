@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyObserver.WebAPI", "CurrencyObserver.WebAPI\CurrencyObserver.WebAPI.csproj", "{239E8541-3B3C-480E-9FFB-F71545560ACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyObserver.Tests", "CurrencyObserver.Tests\CurrencyObserver.Tests.csproj", "{2B07BBA1-E27B-432A-BE9B-5B02E7419DAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{239E8541-3B3C-480E-9FFB-F71545560ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{239E8541-3B3C-480E-9FFB-F71545560ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{239E8541-3B3C-480E-9FFB-F71545560ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B07BBA1-E27B-432A-BE9B-5B02E7419DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B07BBA1-E27B-432A-BE9B-5B02E7419DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B07BBA1-E27B-432A-BE9B-5B02E7419DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B07BBA1-E27B-432A-BE9B-5B02E7419DAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
