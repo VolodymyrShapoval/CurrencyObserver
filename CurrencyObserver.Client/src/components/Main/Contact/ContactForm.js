@@ -91,7 +91,7 @@ const ContactForm = () => {
           onChange={handleInputChange}
         />
         <div>
-          <a href="#" onClick={toggleAdvancedSettings}>
+          <a href="/" onClick={toggleAdvancedSettings}>
             {showAdvanced ? 'Hide advanced settings' : 'Show advanced settings'}
           </a>
           {showAdvanced && (

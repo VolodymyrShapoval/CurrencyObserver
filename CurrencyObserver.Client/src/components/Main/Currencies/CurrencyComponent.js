@@ -4,8 +4,9 @@ import CurrencyService from "../../../services/CurrencyService";
 const CurrencyComponent = ({currency, baseCurrency}) => {
     const [currencyConverted, setCurrencyConverted] = useState(null);
     useEffect(() => {
-        setCurrencyConverted(CurrencyService.convertCurrency(baseCurrency, currency, 1));
-      }, [baseCurrency]);
+      setCurrencyConverted(CurrencyService.convertCurrency(baseCurrency, currency, 1));
+    }, [baseCurrency, currency]);
+  
         
   return (
     <div className="currency-item">
