@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CurrencyObserver/static/css/main.79d4267b.css",
-    "main.js": "/CurrencyObserver/static/js/main.8e1fa1db.js",
+    "main.js": "/CurrencyObserver/static/js/main.5d81abe3.js",
     "static/js/453.9cf2a7f5.chunk.js": "/CurrencyObserver/static/js/453.9cf2a7f5.chunk.js",
     "index.html": "/CurrencyObserver/index.html",
     "main.79d4267b.css.map": "/CurrencyObserver/static/css/main.79d4267b.css.map",
-    "main.8e1fa1db.js.map": "/CurrencyObserver/static/js/main.8e1fa1db.js.map",
+    "main.5d81abe3.js.map": "/CurrencyObserver/static/js/main.5d81abe3.js.map",
     "453.9cf2a7f5.chunk.js.map": "/CurrencyObserver/static/js/453.9cf2a7f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79d4267b.css",
-    "static/js/main.8e1fa1db.js"
+    "static/js/main.5d81abe3.js"
   ]
 }
