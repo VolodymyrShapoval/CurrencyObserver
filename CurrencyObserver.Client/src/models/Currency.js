@@ -5,6 +5,7 @@ export class Currency {
     }
 
     getValues() {
-        return this.abbreviation, this.rate;
+        return [this.abbreviation, this.rate];
     }
+    
 }
