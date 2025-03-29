@@ -1,0 +1,6 @@
+@CurrencyObserver.WebAPI_HostAddress = http://localhost:5095
+
+GET {{CurrencyObserver.WebAPI_HostAddress}}/currency_observer/
+Accept: application/json
+
+###

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Automation of Data Management Processes in Cloud Storage",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPOMfdb9ZbpAlXOCbNKfL7GfNYhv5wVjQVPA&s",
+        "article_url": "https://elibrary.kubg.edu.ua/id/eprint/48603/1/V_Shapoval_L_Zubyk_Y_Zubyk_O_Kurchenko_V_Kozachok_CPITS_3654_2024.pdf",
+        "description": "In the modern world, with the development of informational, scientific, and technical resources, data volumes are rapidly increasing. Cloud services become critically important for supporting and optimizing the management of large amounts of data. With the advancement of technologies, there is a need to enhance methods of managing vast amounts of information. Modern requirements for efficiency and security pose a challenge to business sectors, and it is precisely here that the automation of processes in cloud services becomes key to achieving a high level of functionality and protection. In this article, we will explore the importance of process automation in cloud services, how these technologies contribute to optimizing data management, and ensure security in processing a large volume of information.",
+        "date": "2024"
+    },
+    {
+        "title": "ЗАХИСТ ДАНИХ ТА ВИХІДНИХ ФАЙЛІВ ВІД НЕСАНКЦІОНОВАНОГО ДОСТУПУ ТА КОПІЮВАННЯ КОМП’ЮТЕРНИХ ВІДЕОІГОР",
+        "img_url": "https://ms.detector.media/doc/images/news/20564/i75_ArticleImage_20564.jpeg",
+        "article_url": "https://ontu.edu.ua/download/konfi/2023/Conference_abstract-IT-21-22-04-23.pdf#page=112",
+        "description": "У 21 столітті значних обертів набирає розвиток захисту даних інформаційних систем від злому та проникнення в систему. Однак, розвиток захисту від копіювання відеоігор стоїть на місці. Для опису проблематики було обрано декілька сучасних ігор, що були випущені на ринок протягом останніх 2-3 років. У доповіді було запропоновано перелік варіантів якісного та довгострокового вирішення цієї проблеми.",
+        "date": "2023"
+    },
+    {
+        "title": "ВИКОРИСТАННЯ ІГРОВОГО РУШІЯ UNITY ДЛЯ ПОБУДОВИ КІНЕМАТОГРАФІЧНОГО ПРОСТОРУ ТА ПЕРЕВАГИ ВИКОРИСТАННЯ НА РИНКУ",
+        "img_url": "https://processer.media/wp-content/uploads/2024/01/Unity.png",
+        "article_url": "https://ontu.edu.ua/download/konfi/2024/Conference_abstract-IT-2024.pdf#page=425",
+        "description": "Сучасність принесла у наш світ багато інноваційних рішень в плані розвитку відеоігор. Ми можемо спостерігати за тим, як змінювалася графіка, ігрові механіки, інтелект некерованих персонажів у відеоіграх протягом останніх 10 років. Цьому посприяв розвиток ігрових рушіїв. З виходом кожної нової версії ми отримуємо оновлення в першу чергу функціональних можливостей, які розширюють межі розробки відеоігор. Найпопулярнішими рушіями для створення якісних продуктів стали Unreal Engine, CryEngine, Unity та багато інших. Метою нашої доповіді є дослідження Unity, а його функціональної складової для побудови кінематографічного простору, сцен, і дізнатися, чому він продовжує очолювати топ найкращих ігрових рушіїв останніх років. Під час виконання дослідження також було проаналізовано деякі комп’ютерні відеоігри розроблені на рушії Unity.",
+        "date": "2024"
+    }
+]
